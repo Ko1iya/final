@@ -1,0 +1,56 @@
+.container-site {
+}
+
+html {
+  width: 100%;
+  max-width: 100%;
+  /* overflow-x: hidden; */
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  /* overflow-x: hidden; */
+  background: #f8f8f8;
+  font-size: 1rem;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+td,
+th {
+  font-family: "TT Lakes", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1366px;
+  /* opacity: 0.1; */
+}
+
+.container--opacity {
+  opacity: 0.1;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: none;
+}

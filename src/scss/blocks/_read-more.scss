@@ -1,0 +1,72 @@
+.read-more {
+  display: flex;
+  padding: 0;
+  font-weight: 500;
+  background: none;
+  border: none;
+  // .read-more__el
+
+  &__el {
+    position: relative;
+    margin-left: 24px;
+    font-size: 16px;
+    // .read-more__el--hide
+
+    &--hide::before {
+      position: absolute;
+      content: '';
+      background-image: url(../img/header-item/expand.svg);
+      transform: rotate(180deg);
+      background-size: 140%;
+      height: 20px;
+      width: 18px;
+      left: -20px;
+      top: 3px;
+    }
+  }
+  &__el::before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/header-item/expand.svg);
+    background-size: 140%;
+    height: 20px;
+    width: 18px;
+    left: -25px;
+    top: -3px;
+  }
+
+  &--hide::before {
+    transform: rotate(77deg);
+  }
+}
+
+.hide-reade-more-about {
+}
+.vis-read-more {
+  display: none;
+}
+
+.read-more-none-768 {
+  display: none;
+}
+.hide-read-more {
+}
+.hide-reade-onclick {
+}
+
+.about__main .read-more__el {
+  margin-top: 0;
+}
+
+.read-more__el {
+  margin-top: 24px;
+}
+.hide-read-more {
+  display: none;
+}
+
+/* Раскрываются при нажатии Читать далее */
+
+.display-slider-view-read-more {
+  display: block;
+}

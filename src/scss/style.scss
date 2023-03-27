@@ -1,17 +1,40 @@
-$bgColor: #24292e;
-$text: #fff;
-
-@font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
+.display-none {
+  display: none;
+}
+.display-none-768 {
+  display: none;
 }
 
-body {
-  padding: 1rem;
-  margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
+.paragraph-1120 {
+  display: none;
 }
+
+.display-about-view-read-more {
+  display: inline;
+}
+
+@import './base/fonts';
+
+@import './blocks/settings';
+@import './blocks/header';
+@import './blocks/title';
+@import './blocks/subtitle';
+@import './blocks/about';
+@import './blocks/read-more';
+@import './blocks/main';
+@import './blocks/swiper-container';
+@import './blocks/swiper';
+@import './blocks/types-of-repairs';
+@import './blocks/footer';
+@import './blocks/brends';
+@import './blocks/footer-main';
+@import './blocks/price';
+@import './blocks/burger';
+@import './blocks/footer-burger';
+@import './blocks/form';
+@import './blocks/modal-call';
+@import './blocks/modal-feedback';
+@import './blocks/nav-burger';
+@import './blocks/nav-info';
+
+@import '../scss/base/media';

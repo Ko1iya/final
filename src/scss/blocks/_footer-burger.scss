@@ -1,0 +1,44 @@
+.footer-burger {
+  display: flex;
+  flex-direction: column;
+
+  &__navigation {
+    padding-bottom: 16px;
+  }
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.languages {
+  // .languages__but
+
+  &__but {
+    border: none;
+    background: none;
+    font-weight: 400;
+    margin-right: 7px;
+    // .languages__but--active
+
+    &--active {
+      color: #7e7e82;
+    }
+  }
+}
+
+.footer-addres__mail {
+  margin-bottom: 12px;
+  font-style: normal;
+  list-style-type: none;
+}
+
+.footer-addres__phone {
+  margin-bottom: 40px;
+  font-style: normal;
+  list-style-type: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

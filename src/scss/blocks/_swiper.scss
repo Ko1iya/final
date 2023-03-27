@@ -1,0 +1,83 @@
+.swiper {
+  height: 115px;
+
+  width: 100vw;
+  // .swiper--type
+
+  &--type {
+  }
+
+  // .swiper--price
+
+  &--price {
+    height: 245px;
+  }
+}
+.decor-gradient-swiper {
+}
+.swiper-wrapper {
+}
+.swiper-pagination {
+}
+
+.swiper-slide--price {
+  height: 200px;
+  width: 260px;
+}
+.swiper-pagination-bullet-active {
+  background: #7e7e82;
+}
+
+.swiper-slide__price {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 72px;
+  width: 260px;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  gap: 16px;
+  padding: 16px;
+  padding-top: 30px;
+  border-radius: 6px;
+  border: 1px solid rgba(234, 234, 234, 1);
+}
+
+.swiper-slide__price span {
+  color: rgba(126, 126, 130, 1);
+}
+
+.swiper-slide__price::after {
+  content: '';
+  background: rgba(0, 0, 0, 0) url(../img/main/group.svg) center no-repeat;
+  background-size: auto;
+  width: 119px;
+  height: 32px;
+  position: absolute;
+  left: 126px;
+  top: 152px;
+  border: 1px solid rgb(248, 248, 248);
+  border-radius: 16px;
+}
+
+.swiper-slide__price:hover::after {
+  transition: all 0.3s ease;
+  border: none;
+  background: rgba(0, 0, 0, 0) url(../img/main/zakazat.jpg) center no-repeat;
+  background-size: 100%;
+  border: 1px solid rgba(255, 62, 121, 1);
+  border-radius: 16px;
+}
+
+.swiper-slide__price {
+  height: 100%;
+  text-decoration: none;
+  align-items: baseline;
+  color: black;
+}
+
+.display-slider-none-1120 {
+  display: none;
+}

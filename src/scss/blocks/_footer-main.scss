@@ -1,0 +1,10 @@
+.footer-main {
+  max-width: 421px;
+  font-size: 14px;
+  // .footer-main__el
+
+  &__el {
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+}

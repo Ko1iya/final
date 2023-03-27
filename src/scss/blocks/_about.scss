@@ -1,0 +1,27 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  // .about__main
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    color: #1b1c21;
+    font-size: 14px;
+    gap: 16px;
+  }
+
+  // .about__item
+
+  &__item {
+    font-size: 14px;
+  }
+
+  // .about__img
+
+  &__img {
+    left: -16px;
+    position: relative;
+  }
+}

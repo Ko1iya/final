@@ -1,0 +1,25 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  font-size: 28px;
+  position: relative;
+  justify-content: space-between;
+  padding-right: 66px;
+  flex-wrap: nowrap;
+  // .title__el
+
+  &__el {
+    font-size: 28px;
+    min-width: 260px;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 8px;
+    background: #41f6d7;
+    left: -20px;
+    border-radius: 4px;
+  }
+}

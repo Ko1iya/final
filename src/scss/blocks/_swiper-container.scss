@@ -1,0 +1,153 @@
+.swiper-container {
+  background-color: #f8f8f8;
+  /* max-height: 200px; */
+  min-width: 0;
+  // .swiper-container--price
+
+  &--price {
+  }
+}
+.swiper-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #7e7e82;
+  background-image: linear-gradient(0.25turn, #f8f8f8, #ffffff);
+  min-width: 100vw;
+  // .swiper-title__text
+
+  &__text {
+    padding: 16px 16px 16px 0px;
+    margin-bottom: 16px;
+  }
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: row;
+  width: 240px;
+  height: 72px;
+  min-width: 240px;
+  min-height: 72px;
+  align-items: center;
+  // .swiper-slide--type
+
+  &--type {
+  }
+
+  // .swiper-slide--price
+
+  &--price {
+  }
+
+  // .swiper-slide__item
+
+  &__item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+    width: 240px;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+
+    border-radius: 6px;
+    border: 1px solid rgba(234, 234, 234, 1);
+  }
+
+  &__item::after {
+    content: '';
+    background: rgba(0, 0, 0, 0) url(../img/header-item/dropdown.svg) center
+      no-repeat;
+    background-size: auto;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 180px;
+    border: 2px solid rgba(255, 62, 121, 1);
+    border-radius: 50%;
+  }
+
+  &__item:hover::after {
+    transition: all 1s ease;
+    border: none;
+    background-color: rgba(255, 62, 120, 0.238);
+  }
+
+  // .swiper-slide__img
+
+  &__img {
+    width: 108px;
+    height: 32px;
+    height: 45px;
+    align-items: center;
+    display: flex;
+  }
+
+  // .swiper-slide__but
+
+  &__but {
+    width: 40px;
+    height: 40px;
+  }
+
+  // .swiper-slide__type
+
+  &__type {
+  }
+
+  // .swiper-slide__price
+
+  &__price {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 72px;
+    width: 260px;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    gap: 16px;
+    padding: 16px;
+    padding-top: 30px;
+    border-radius: 6px;
+    border: 1px solid rgba(234, 234, 234, 1);
+    height: 100%;
+    text-decoration: none;
+    align-items: baseline;
+    color: black;
+  }
+
+  &__price span {
+    color: rgba(126, 126, 130, 1);
+  }
+
+  &__price::after {
+    content: '';
+    background: rgba(0, 0, 0, 0) url(../img/main/group.svg) center no-repeat;
+    background-size: auto;
+    width: 119px;
+    height: 32px;
+    position: absolute;
+    left: 126px;
+    top: 152px;
+    border: 1px solid rgb(248, 248, 248);
+    border-radius: 16px;
+  }
+
+  &:hover::after {
+    transition: all 0.3s ease;
+    border: none;
+    background: rgba(0, 0, 0, 0) url(../img/main/zakazat.jpg) center no-repeat;
+    background-size: 100%;
+    border: 1px solid rgba(255, 62, 121, 1);
+    border-radius: 16px;
+  }
+
+  &:hover::after {
+    transition: all 1s ease;
+    border: none;
+    background-color: rgba(255, 62, 120, 0.238);
+  }
+}
